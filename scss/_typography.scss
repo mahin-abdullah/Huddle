@@ -1,9 +1,10 @@
 // Imported Fonts //
 
-// Fonts //
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
 
-$primary-font: ;
-$secondary-font: ;
+// Fonts //
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Poppins", sans-serif;
 
 // Font Sizes //
 
@@ -13,4 +14,9 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $secondary-font;
+}
+
+p {
+  font-family: $primary-font;
 }

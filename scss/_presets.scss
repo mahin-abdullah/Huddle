@@ -22,7 +22,7 @@ img {
   position: relative;
 }
 
-.row {
+.row-sm {
   display: flex;
   justify-content: space-between;
 }
@@ -30,6 +30,8 @@ img {
 @media (min-width: 992px) {
   // .row-lg made for bigger screen sizes //
 
-  .row-lg {
+  .row {
+    display: flex;
+    justify-content: space-between;
   }
 }

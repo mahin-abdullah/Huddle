@@ -1,8 +1,16 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGEA,OAAO,CAAC,2GAAI,CFFZ,AAAA,CAAC,CACD,CAAC,AAAA,QAAQ,CACT,CAAC,AAAA,OAAO,AAAC,CACP,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACV,AAED,AAAA,GAAG,AAAC,CACF,SAAS,CAAE,IAAI,CAChB,AAED,AAAA,UAAU,AAAC,CAET,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,MAAM,CAGd,QAAQ,CAAE,QAAQ,CACnB,AAED,AAAA,OAAO,AAAC,CACN,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC/B,AAED,MAAM,EAAE,SAAS,EAAE,KAAK,EAGtB,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC/B,CEzBH,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,AAAC,CACD,WAAW,CAVI,SAAS,CAAE,UAAU,CAWrC,AAED,AAAA,CAAC,AAAC,CACA,WAAW,CAfE,WAAW,CAAE,UAAU,CAgBrC",
     "sources": [
-        "../../scss/main.scss"
+        "../../scss/main.scss",
+        "../../scss/_presets.scss",
+        "../../scss/_variables.scss",
+        "../../scss/_typography.scss",
+        "../../scss/_header.scss",
+        "../../scss/_hero.scss",
+        "../../scss/_main.scss",
+        "../../scss/_form.scss",
+        "../../scss/_footer.scss"
     ],
     "names": [],
     "file": "main.min.css"
