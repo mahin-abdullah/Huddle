@@ -22,14 +22,14 @@ img {
   position: relative;
 }
 
+// .row made for smaller screen sizes //
+
 .row-sm {
   display: flex;
   justify-content: space-between;
 }
 
 @media (min-width: 992px) {
-  // .row-lg made for bigger screen sizes //
-
   .row {
     display: flex;
     justify-content: space-between;

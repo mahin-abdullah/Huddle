@@ -1,0 +1,45 @@
+.wrapper {
+  background-image: url(/dist/images/bg-hero-mobile.svg);
+}
+
+header {
+  padding: 1em 0 0 0;
+
+  .logo {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    font-family: $secondary-font;
+  }
+
+  .nav__list {
+    list-style: none;
+  }
+
+  .nav__item {
+    font-size: 17px;
+  }
+
+  .nav__link {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .nav__link--btn {
+    padding: 0.3em 1.5em;
+    background: #ffffff;
+    border-radius: 50px;
+    filter: drop-shadow(0px 5px 3px #cfd9de);
+    transition: all 250ms ease-out;
+  }
+
+  .nav__link--btn:hover,
+  .nav__link--btn:focus {
+    letter-spacing: 1px;
+    transform: scale(1.05);
+  }
+}
