@@ -1,0 +1,30 @@
+.hero {
+  padding: 4em 0 4em 0;
+
+  .hero__title {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .hero__content {
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .cta {
+    text-align: center;
+    padding: 1.8em 0 5.5em 0;
+
+    .cta--btn {
+      font-family: $secondary-font;
+      padding: 1em 5em;
+      border: none;
+      border-radius: 50px;
+      color: #fff;
+      background: $cta-clr;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+    }
+  }
+}
