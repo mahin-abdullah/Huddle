@@ -1,0 +1,37 @@
+main {
+  padding: 2em 0 4em 0;
+
+  .grow,
+  .flow,
+  .users {
+    display: flex;
+    flex-direction: column;
+    background: #fdfdfd;
+    filter: drop-shadow(1px 9px 15px #cfd9de);
+  }
+
+  .section__primary {
+    order: 2;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .section__title {
+    font-size: 22px;
+    padding: 1em 0 0 0;
+  }
+
+  .section__content {
+    color: $accent-clr;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+
+  .section__secondary {
+    order: 1;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0 0 0;
+  }
+}

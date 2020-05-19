@@ -25,6 +25,14 @@
       background: $cta-clr;
       font-size: 15px;
       letter-spacing: 0.5px;
+      filter: drop-shadow(0px 5px 3px #cfd9de);
+      transition: all 350ms ease-out;
+    }
+
+    .cta--btn:hover,
+    .cta--btn:focus {
+      letter-spacing: 1.2px;
+      transform: scale(1.05);
     }
   }
 }
