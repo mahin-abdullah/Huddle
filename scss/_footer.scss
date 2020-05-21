@@ -1,7 +1,65 @@
 footer {
   background: $primary-clr;
 
+  .footer__logo {
+    margin: 0 0 2em 0;
+  }
+
   .footer__contact.col {
     padding: 11em 0 0 0;
+    color: #fff;
+  }
+
+  .footer__contact,
+  .footer__link {
+    color: #fff;
+  }
+
+  .footer__contact img {
+    padding: 0 1.2em 0 0;
+  }
+
+  .footer__contact p {
+    line-height: 1.8;
+  }
+
+  .footer__list {
+    margin: 2.5em 0 1.5em 0;
+  }
+
+  .footer__item {
+    list-style: none;
+    margin: 1em 0 0 0;
+    font-size: 17px;
+  }
+
+  .footer__item:hover,
+  .footer__item:focus {
+    opacity: 80%;
+  }
+
+  .footer__link {
+    text-decoration: none;
+    font-family: $primary-font;
+  }
+
+  .social__icons.col {
+    text-align: center;
+    margin: 4em 0 3em 0;
+  }
+
+  .fa-lg {
+    margin: 0 0.9em 0 0;
+    color: #fff;
+    transition: color 250ms ease-out;
+  }
+
+  .fa-lg:hover,
+  .fa-lg:focus {
+    color: $cta-clr;
+  }
+
+  .dev-title {
+    margin: 0;
   }
 }
