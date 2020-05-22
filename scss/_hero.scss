@@ -36,3 +36,26 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .primary__content.col {
+    width: 40%;
+
+    .hero__title,
+    .hero__content {
+      text-align: start;
+    }
+
+    .hero__title {
+      font-size: 45px;
+    }
+  }
+
+  .secondary__content.col {
+    width: 55%;
+  }
+
+  .hero .cta {
+    text-align: start;
+  }
+}
