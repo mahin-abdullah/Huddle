@@ -59,7 +59,39 @@ footer {
     color: $cta-clr;
   }
 
+  .dev {
+    margin: 3.5em 0 0 0;
+    text-align: center;
+  }
+
   .dev-title {
     margin: 0;
+    color: #f5eded;
+    font-size: 14px;
+  }
+
+  .dev--info {
+    color: #9e579d;
+    text-decoration: none;
+    transition: color 250ms ease-out;
+  }
+
+  .dev--info:hover,
+  .dev--info:focus {
+    color: $cta-clr;
+  }
+}
+
+@media (min-width: 1100px) {
+  footer {
+    padding: 0.3 0 2em 0;
+
+    .footer__contact.col {
+      width: 35%;
+    }
+
+    .dev {
+      margin: 6em 0 0 0;
+    }
   }
 }
