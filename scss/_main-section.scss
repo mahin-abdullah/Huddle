@@ -4,15 +4,15 @@ main {
   .grow,
   .flow,
   .users {
-    display: flex;
-    flex-direction: column;
+    display: block;
     background: #fdfdfd;
     filter: drop-shadow(1px 9px 15px #cfd9de);
     border-radius: 10px;
+    width: 90%;
+    margin: 4.5em auto;
   }
 
   .section__primary {
-    order: 2;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -30,9 +30,35 @@ main {
   }
 
   .section__secondary {
-    order: 1;
     width: 80%;
     margin: 0 auto;
     padding: 2em 0 0 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .grow .section__secondary,
+  .users .section__secondary {
+    order: 2;
+    width: 35%;
+  }
+
+  .grow .section__primary,
+  .flow .section__primary,
+  .users .section__primary {
+    width: 46%;
+    text-align: start;
+  }
+
+  .flow .section__secondary {
+    width: 35%;
+  }
+
+  main .section__title {
+    font-size: 30px;
+  }
+
+  main .section__content {
+    font-size: 20px;
   }
 }
